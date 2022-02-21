@@ -34,6 +34,8 @@ a:hover {
 
 }
 
+
+
 #header {
   background-image: url("images/banner.jpg");
   background-position: center;
@@ -48,8 +50,10 @@ a:hover {
 }
 
 .title ul{
+
   display: flex;
   justify-content: center;
+  margin: 40px;
 }
 
 .title ul li{
@@ -57,6 +61,16 @@ a:hover {
   margin: 10px;
 }
 
+.overlay {
+
+ display: none;
+ position: fixed;
+ width : 30%;
+ height: 30%;
+ background-color: cornsilk;
+ top:20%;
+ left:35%;
+}
 
 
 #main {
@@ -98,7 +112,7 @@ a:hover {
 }
 
 
-#footer {
+.footer {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -107,4 +121,15 @@ a:hover {
   display: flex;
   justify-content: space-between;
 
+}
+
+
+
+.popupcat {
+
+  background-image: url("images/popupcat2.png");
+  background-position: center;
+  position: absolute;
+  height: 500px;
+  width: 500px;
 }
